@@ -1,0 +1,18 @@
+tendremos que cambiar configuracion si lo movemos del workspace
+driver=org.sqlite.JDBC
+url=jdbc:sqlite:dbSQLite\\gallery.db
+
+
+EN ECLIPSE: boton derecho sobre el proyecto > export >
+java > runnable JAR file > next
+Seleccionamos del listado el MAIn del proyecto
+Indicamos carpeta donde guardaremos el JAR (que creamos en C:)
+Y en Library dejamos la primera opcion.
+Y click en Finish
+
+copiamos carpeta dbSQLite
+copiamos el configuracion.properties PERO CAMBIAR LA RUTA A RELATIVA
+
+PODRIAMOS CREAR EN ECLIPSE EL DOCUMENTO YA CON LA RUTA RELATIVA. 
+PERO COMPROBAR QUE AQUI SI ES RELATIVA Y NO ABSOLUTA.
+PORQUE EN ECLIPSE FUNCIONA CON LAS DOS, PERO AQUI SOLO CON RELATIVA.
